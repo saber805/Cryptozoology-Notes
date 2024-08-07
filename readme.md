@@ -13,7 +13,7 @@ b-->c
 **明文aabb就会被加密为eecc**。  
 但仔细想一下就知道，这种密码的本质只是将一种字符简单替换为另一字符，如果字符存在频率分部不均匀的特点，就可以根据频率特点和单词中经常出现的The，a，an等单词进而破解。不幸的是，英文字母的分布极其不均匀，字母e的出现频率是最高的，像Z,Q，X等字母在英语中的使用频率极低。
 
-![avatar](/密码学笔记/image/Frequency-of-use-of-English-letters-biao-4-yingwenzimudeshiyongpinlu.png)
+![avatar](/image/Frequency-of-use-of-English-letters-biao-4-yingwenzimudeshiyongpinlu.png)
 
 其实不光是英语，只要是字符化的人类语言，意大利语，西班牙语都有各自的频率特点，因此使用单表替换密码加密的文本均可使用频率分析的方法进行破解。
 
